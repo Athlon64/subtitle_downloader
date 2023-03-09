@@ -1,0 +1,17 @@
+[package]
+name = "subdown_rust"
+version = "0.2.0"
+authors = ["Alexander"]
+
+[dependencies]
+futures = "*"
+tokio-core = "*"
+rust-crypto = "*"
+url = "*"
+hyper = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+
+[profile.release]
+lto = true
